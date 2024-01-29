@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasikanth - Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63744ddd9c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+      
+    <header id="header">
+        <div class="container">
+            <nav>
+               <div class="logo">
+                   <!--  <img src="sasikanthpic002.png" alt="Logo"> -->
+                </div>
+                <div class="name">
+                    <div class="first-letter">S</div>
+                    <div class="name-text">ASIKANTH.</div>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#port">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <samp>Sasikanth</samp> From India <br> <samp1>With Solid 
+                    Experience In Building <br>Front-End Application</samp1>.</h1>
+                   
+            </div>
+            <div class="page">
+                <img src="IMG4.png" alt="Your Image">
+                
+            </div>
+            
+        </div>
+    </header>
+<!----------------------------about--------------------------- -->
+    <section id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                   <img src="sasikanthpic01.jpg" alt="">
+                   
+                </div>   
+                <div class="About-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p >I'm Saskanth, a diploma graduate from Kongu Polytechnic College.
+                        Currently pursuing a degree in AI/ML at KPR Institute of Engineering and Technology. 
+                        Proficient in C, C#, Java, Python, web technologies, and creative software.
+                        Passionate about creating beginner-level projects that blend technology and creativity.</p>
+                        <div class="tab-tittles">
+                            <p class="tab-links1 active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links1" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links1" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App Interface</li>
+                                <li><span>Web Devlopement</span><br>Web App Devlopement</li>
+                                <li><span>App Devlopement</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designed a personal portfolio website, showcasing my UI/UX design skills and creative talent</li>
+                                <li><span>2022</span><br>Developed a comprehensive e-commerce website for my diploma project</li>
+                                <li><span>App Devlopement</span><br>Eager to apply my knowledge and skills to create innovative and user-friendly mobile applications</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-23</span><br>Kongu Polytechnic College</li>
+                                <li><span>2023-Current</span><br>KPR Institute of Engineering and Technology</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            
+        </div>
+    </section>
+   <!-- ------------------------Services--------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Discover my webpage, a design showcase featuring a user-friendly 
+                        interface and elegant aesthetics created with HTML, CSS, and JavaScript.</p>
+                        <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Explore my UI/UX expertise, crafting user-friendly interfaces and elegant experiences for web and app design,
+                         backed by a skill set in usability principles and design tools.</p>
+                        <a href="https://en.wikipedia.org/wiki/User_interface_design">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Explore my app design skills, crafting user-friendly 
+                        interfaces and elegant experiences for mobile and web applications</p>
+                        <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- ------------------------portfolio--------------------------->
+
+   <div class="port" id="port">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="app1.jpg" >
+                    <div class="layer">
+                        <h3>App Design</h3>
+                        <p>Showcasing my UI/UX design skills and creative talent</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ui1.jpg" >
+                    <div class="layer">
+                        <h3> App Devlopement</h3>
+                        <p>Eager to apply my knowledge and skills to create innovative and 
+                            user-friendly mobile applications</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="web1.jpg" >
+                    <div class="layer">
+                        <h3>Web Developed</h3>
+                        <p>Developed a comprehensive e-commerce website for my diploma project
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/mSASIKANTH27"class="btn">See more</a>
+        </div>
+    </div>
+
+   <!-- ------------------------contact--------------------------->
+    <div id="contact">
+       <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-tittle">Contact Me</h1>
+             <p> <i class="fa-solid fa-paper-plane"></i>sasikath@gmail.com</p>
+             <p> <i class="fa-solid fa-phone"></i>+91 8904494610</p>
+             <div class="social-icon">
+              <!--  <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a> -->
+                <a href="https://twitter.com/Sasikanth M"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/_.sasikanth_27/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sasi-kanth-9576b5217"><i class="fa-brands fa-linkedin"></i></a>
+             </div>   
+            </div>
+           <!-- <a href=""class=" btn2">Download Cv</a> -->
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+       </div> 
+       <div class="copy-right">
+        <p><i class="fa-solid fa-heart"></i> Sasikanth 2023 | All Rights Reserved. Unauthorized use or reproduction of the content on this site is prohibited</p>
+       </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+   <!-- ------------------------Script--------------------------->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links1");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    var currentTab = document.getElementById(tabname);
+    var currentLink = document.querySelector("[onclick=\"opentab('" + tabname + "')\"]");
+
+    currentLink.classList.add("active-link");
+    currentTab.classList.add("active-tab");
+}
+
+
+
+     </script>
+     
+        <script>
+                var sidmenu = document.getElementById("sidemenu");
+
+
+                function openmenu(){
+                    sidmenu.style.right = "0";
+                }
+
+                function closemenu(){
+                    sidmenu.style.right = "-210px";
+                }
+        </script>
+
+</body>
+</html>
